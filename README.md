@@ -1,17 +1,22 @@
-<h1>SOC Home Lab</h1>
+<h1>SOC Home Lab SetUp</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
-<h2>Description</h2>
-Building a Security Operations Center (SOC) home lab using Oracle VirtualBox to simulate real-world cyber attacks and defensive monitoring. The lab includes a Windows 10 virtual machine as the victim, a Kali Linux virtual machine as the attacker, and Splunk Enterprise as the SIEM for centralized log collection and analysis. The environment uses NAT networking for controlled attack simulations and an Internal Network for malware testing, allowing hands-on experience with attack detection, log analysis, and incident investigation.
+<h2>Project Overview</h2>
+This project documents the creation of my cybersecurity home lab used for SOC Analyst practice. The environment simulates an enterprise network consisting of a Windows workstation, Ubuntu server, Kali Linux attacker machine, and a Splunk SIEM. The lab allows me to safely perform attack simulations, collect Windows logs with Sysmon, forward events into Splunk, and investigate activity just like a Security Operations Center (SOC).
 <br />
 
-<h2>Environments Used </h2>
+<h2>Lab Objectives </h2>
 
-- <b>Windows 10</b>
-- <b>Kali Linux</b>
-- <b>Splunk</b> (SIEM)
-- <b>Sysom</b> (Event Viewer)
+- <b>Build a virtual enterprise environment</b>
+- <b>Simulate attacker vs victim scenarios</b>
+- <b>Centralize logs using Splunk Enterprise</b> 
+- <b>Collect Windows telemetry using Sysmon</b> 
+- <b>Validate log ingestion</b> 
+- <b>Create a foundation for future detection engineering projects</b>
+
+<h2>Network Architecture</h2>
+
 
 <h2>Set-Up walk-through:</h2>
 
