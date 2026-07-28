@@ -14,13 +14,18 @@ This project documents the creation of my cybersecurity home lab used for SOC An
 - <b>Create a foundation for future detection engineering projects</b>
 
 <h2>Network Architecture</h2>
-
-
+ <img src="https://i.imgur.com/2d17vNa.jpeg"/>
+ <img src="https://i.imgur.com/TD8Bt6k.jpeg"/>
 <h2>Set-Up walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+(Installed Oracle VirtualBox and created the virtual lab environment for cybersecurity testing) <br/>
+ Installed VirtualBox on my windows Pc: <br/>
+<img src="https://i.imgur.com/O7DqtGj.png"/>
+Make sure Virtualization is Enabled before moving any further by opening Task Manager and go to cpu, look for Virtualization saying enable. if it say disable then go into bios and enable it from your comupter (google how to get there because each bios is different set up): <br/>
+ <img src="https://i.imgur.com/e673p3a.png"/>
+ After going through the install process the Main Screen pops up that i will be setting my Lab up : <br/>
+ <img src="https://i.imgur.com/92C7IhW.png"/>
 <br />
 <br />
 Select the disk:  <br/>
