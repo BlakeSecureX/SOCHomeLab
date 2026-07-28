@@ -1,7 +1,5 @@
 <h1>SOC Home Lab SetUp</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Project Overview</h2>
 This project documents the creation of my cybersecurity home lab used for SOC Analyst practice. The environment simulates an enterprise network consisting of a Windows workstation, Ubuntu server, Kali Linux attacker machine, and a Splunk SIEM. The lab allows me to safely perform attack simulations, collect Windows logs with Sysmon, forward events into Splunk, and investigate activity just like a Security Operations Center (SOC).
 <br />
