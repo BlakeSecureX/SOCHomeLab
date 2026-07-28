@@ -1,7 +1,7 @@
 <h1>SOC Home Lab SetUp</h1>
 
 <h2>Project Overview</h2>
-This project documents the creation of my cybersecurity home lab used for SOC Analyst practice. The environment simulates an enterprise network consisting of a Windows workstation, Ubuntu server, Kali Linux attacker machine, and a Splunk SIEM. The lab allows me to safely perform attack simulations, collect Windows logs with Sysmon, forward events into Splunk, and investigate activity just like a Security Operations Center (SOC).
+This project documents the creation of my cybersecurity home lab used for SOC Analyst practice. The environment simulates an enterprise network consisting of a Windows workstation, Ubuntu server, Kali Linux attacker machine, and a Splunk SIEM. The lab allows me to safely perform attack simulations, collect Windows logs and Server Logs from the Windows and Server VM I setup in this lab, forward events into Splunk, and investigate activity just like a Security Operations Center (SOC).
 <br />
 
 <h2>Lab Objectives </h2>
@@ -9,7 +9,7 @@ This project documents the creation of my cybersecurity home lab used for SOC An
 - <b>Build a virtual enterprise environment</b>
 - <b>Simulate attacker vs victim scenarios</b>
 - <b>Centralize logs using Splunk Enterprise</b> 
-- <b>Collect Windows telemetry using Sysmon</b> 
+- <b>Collect Windows telemetry using Splunk Forwarder</b> 
 - <b>Validate log ingestion</b> 
 - <b>Create a foundation for future detection engineering projects</b>
 
