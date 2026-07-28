@@ -7,7 +7,7 @@ This project documents the creation of my cybersecurity home lab used for SOC An
 <h2>Lab Objectives </h2>
 
 - <b>Build a virtual enterprise environment</b>
-- <b>Simulate attacker vs victim scenarios</b>
+- <b>Simulate attacker vs victim scenarios(Brute Force)</b>
 - <b>Centralize logs using Splunk Enterprise</b> 
 - <b>Collect Windows telemetry using Splunk Forwarder</b> 
 - <b>Validate log ingestion</b> 
