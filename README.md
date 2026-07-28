@@ -24,7 +24,7 @@ This project documents the creation of my cybersecurity home lab used for SOC An
 <img src="https://i.imgur.com/O7DqtGj.png"/>
 Make sure Virtualization is Enabled before moving any further by opening Task Manager and go to cpu, look for Virtualization saying enable. if it say disable then go into bios and enable it from your comupter (google how to get there because each bios is different set up): <br/>
  <img src="https://i.imgur.com/e673p3a.png"/>
- After going through the install process the Main Screen pops up that i will be setting my Lab up : <br/>
+ After going through the install process the Main Screen pops up that i will be setting my Lab up in: <br/>
  <img src="https://i.imgur.com/92C7IhW.png"/>
 <br />
 <br />
