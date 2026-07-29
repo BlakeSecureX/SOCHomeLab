@@ -1,4 +1,4 @@
-<h1>SOC Home Lab SetUp</h1>
+<h1>Virtual Home Lab SetUp</h1>
 
 <h2>Project Overview</h2>
 This project documents the creation of my Virtual home lab used for Cybersecurity future project practice's. The environment simulates an enterprise network consisting of a Windows workstation, Ubuntu server, Kali Linux attacker machine. The lab allows me to safely perform attack simulations, collect Windows logs and Server Logs, and other projects to do on it.
