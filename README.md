@@ -1,21 +1,16 @@
 <h1>SOC Home Lab SetUp</h1>
 
 <h2>Project Overview</h2>
-This project documents the creation of my cybersecurity home lab used for SOC Analyst practice. The environment simulates an enterprise network consisting of a Windows workstation, Ubuntu server, Kali Linux attacker machine, and a Splunk SIEM. The lab allows me to safely perform attack simulations, collect Windows logs and Server Logs from the Windows and Server VM I setup in this lab, forward events into Splunk, and investigate activity just like a Security Operations Center (SOC).
+This project documents the creation of my Virtual home lab used for Cybersecurity future project practice's. The environment simulates an enterprise network consisting of a Windows workstation, Ubuntu server, Kali Linux attacker machine. The lab allows me to safely perform attack simulations, collect Windows logs and Server Logs, and other projects to do on it.
 <br />
 
 <h2>Lab Objectives </h2>
 
-- <b>Build a virtual enterprise environment</b>
-- <b>Simulate attacker vs victim scenarios(Brute Force)</b>
-- <b>Centralize logs using Splunk Enterprise</b> 
-- <b>Collect Windows telemetry using Splunk Forwarder</b> 
-- <b>Validate log ingestion</b> 
-- <b>Create a foundation for future detection engineering projects</b>
+- <b>Build a Virtual Lab Environment</b>
 
 <h2>Network Architecture</h2>
  <img src="https://i.imgur.com/2d17vNa.jpeg"/>
- <img src="https://i.imgur.com/TD8Bt6k.jpeg"/>
+
 <h2>Set-Up walk-through:</h2>
 
 <p align="center">
@@ -28,9 +23,9 @@ Make sure Virtualization is Enabled before moving any further by opening Task Ma
  <img src="https://i.imgur.com/92C7IhW.png"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+ So next step is installing all the VM for this Lab Environment, Im going to be install Ubuntu Server (Feed Test Logs), Windows 10 Desktop(Victims Pc):<br/>
+ <img src="https://i.imgur.com/M0qXARY.png"/>
+<br/>
 <br />
 Enter the number of passes: <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
