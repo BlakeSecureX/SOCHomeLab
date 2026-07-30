@@ -9,7 +9,7 @@ This project documents the creation of my Virtual home lab used for Cybersecurit
 - <b>Build a Virtual Lab Environment</b>
 
 <h2>Network Architecture</h2>
- <img src="https://i.imgur.com/2d17vNa.jpeg"/>
+ <img src="https://i.imgur.com/E1Y2N4H.jpeg"/>
 
 <h2>Set-Up walk-through:</h2>
 
@@ -23,12 +23,28 @@ Make sure Virtualization is Enabled before moving any further by opening Task Ma
  <img src="https://i.imgur.com/92C7IhW.png"/>
 <br />
 <br />
- So next step is installing all the VM for this Lab Environment, Im going to be install Ubuntu Server (Feed Test Logs), Windows 10 Desktop(Victims Pc):<br/>
+ So next step is installing all the VM for this Lab Environment, Im going to be install Ubuntu Server, Windows 10 Desktop(Victims Pc):<br/>
  <img src="https://i.imgur.com/M0qXARY.png"/>
+ <img src="https://i.imgur.com/qmbOjEy.png"/>
+ <img src="https://i.imgur.com/ZZ6DhkH.png"/>
 <br/>
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After installing both VM'S (Server & Desktop) im are going to import them into virtual machine <br/>
+ Click New <br/>
+ 1: Give it A Name <br/>
+ 2: Click On ISO and click "other.." since we have our own install ISO <br/>
+ 3: Navigate where you install your ISO to then Select the ISO (Got to do this step again since only one per isntall) <br/>
+ 4: By Progressing the base memory I set it to 4096 Mb enough to run the VM's smoothly with out taking a lot on my Host when running <br/>
+ 5: i put the CPU to 2 for both server and desktop VM'S <br/>
+ 6: I set my VM storage to 50GB because to run the set up for the VM's it takes half that storage to install properly while i need a little extra to install stuff on it <br/>
+ 7: Then click finish <br/>
+ Now i got both VMs into virtual box: <br/>
+<img src="https://i.imgur.com/xXwk8AE.png"/>
+<img src="https://i.imgur.com/yyAPi4B.png"/>
+<img src="https://i.imgur.com/94ps8MK.png"/>
+<img src="https://i.imgur.com/U65KCCO.png"/>
+<img src="https://i.imgur.com/QiceXQ9.png"/>
+<img src="https://i.imgur.com/lPiXOkf.png"/>
 <br />
 <br />
 Confirm your selection:  <br/>
